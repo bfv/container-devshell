@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: devshell
+spec:
+  containers:
+    - name: devshell
+      image: docker.io/devbfvio/devshell
+      imagePullPolicy: Always
